@@ -18,13 +18,19 @@ p{
 /* HEADER */
 header{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 
     width: 100vw;
     height: 80px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
+}
+
+.contain{
+    display: flex;
+    gap: 40px;
+    margin-right: 10px;
 }
 
 header h1{
@@ -37,6 +43,7 @@ header li a{
 }
 
 /* MAIN */
+
     /* apresentacao */
 .apresentacao{
     display: grid;
