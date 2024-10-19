@@ -165,6 +165,7 @@ ul{
     /* skills */
 
 .skills{
+    width: 100vw;
     height: 100vh;
     padding: 10px;
 
@@ -185,4 +186,13 @@ ul{
 .skill ,.skill-1,.skill-2,.skill-3{
     width: 250px;
     padding: 10px;
+}
+
+/* Projects */
+.projects{
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+
+    text-align: center;
 }
